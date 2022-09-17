@@ -18,11 +18,11 @@ const Form = () => {
           />
           <div>
             <h3 className="conocenosmas">Conocenos más</h3>
-            <div className="flex container-links justify-around pr-[20px]">
+            <div className="flex flex-col sm:flex-row container-links justify-around pr-[20px]">
               <a
                 target="_blanck"
                 href="https://www.instagram.com/dyn.consulting/"
-                className="flex links items-center"
+                className="flex links items-center py-[10px]"
               >
                 <img
                   className="px-[20px]"
@@ -34,7 +34,7 @@ const Form = () => {
               <a
                 target="_blanck"
                 href="https://www.linkedin.com/company/d%C2%B7y%C2%B7n/about/"
-                className="flex links items-center"
+                className="flex links items-center py-[10px]"
               >
                 <img className="px-[20px]" src="./images/Linkedin.png" alt="" />
                 LinkedIn

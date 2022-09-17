@@ -13,7 +13,7 @@ const Footer = () => {
           y equipos de trabajo.
         </p>
       </div>
-      <p className="bottom-5 left-[40%] mx-auto absolute font-medium">
+      <p className="bottom-5 left-[10%] sm:left-[40%] mx-auto absolute font-medium">
         © 2022 D&N. Todos los derechos reservados.
       </p>
     </footer>
