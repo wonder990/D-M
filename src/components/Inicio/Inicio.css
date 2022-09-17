@@ -1,0 +1,95 @@
+.contaeiner-body {
+    background: #FAFAFA;
+}
+.container-inicio {
+    background: #FAFAFA;
+    background-image: url("../../../public/images/Wireframe-fidelidad\ alta\ \(5\).png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-attachment: local;
+    width: 100%;
+    min-height: 100vh;
+}
+html {
+    scroll-behavior: smooth;
+}
+.presentation {
+    width: 800px;
+    padding: 80px 0 100px 10%;
+}
+.presentation h2 {
+    font-family: 'Figtree', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 60px;
+    line-height: 72px;
+    letter-spacing: -0.015em;
+    padding-top: 60px;
+}
+.presentation p {
+    margin: 70px 0;
+    font-family: 'Figtree', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 32px;
+    letter-spacing: 0.15em;
+}
+.presentation button {
+    margin: 40px 0;
+    display: flex;
+    font-family: 'Figtree', sans-serif;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 12px 84px;
+    gap: 10px;
+    width: 366px;
+    height: 48px;
+    background: #B48FF5;
+    border-radius: 30px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #FAFAFA;
+    }
+
+    @media only screen and (max-width: 1100px) {
+        .container-inicio {
+            background: #FAFAFA;
+            background-repeat: no-repeat;
+            background-size: 100%;
+            background-attachment: local;
+            width: 100%;
+            min-height: 100vh;
+        }
+        .presentation {
+            width: 90%;
+            padding: 0 0 100px 10%;
+        }
+        .presentation h2 {
+            font-family: 'Figtree', sans-serif;
+            font-style: normal;
+            font-weight: 600;
+            font-size: 40px;
+            line-height: 52px;
+            letter-spacing: -0.015em;
+            padding-top: 60px;
+        }
+        .presentation button {
+            margin: 40px auto;
+            font-family: 'Figtree', sans-serif;
+            width: 80%;
+            height: 48px;
+            background: #B48FF5;
+            border-radius: 30px;
+            font-style: normal;
+            font-weight: 700;
+            font-size: 20px;
+            text-align: center;
+            color: #FAFAFA;
+            }
+    }

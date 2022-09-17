@@ -1,0 +1,24 @@
+.our-Values {
+    background-color: #FAFAFA;
+    padding: 0 10%;
+}
+.our-Values h3 {
+    font-family: 'Figtree', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 40px;
+}
+@media only screen and (max-width: 1100px) {
+    .our-Values {
+        background-color: #FAFAFA;
+        padding: 0 50px;
+    }
+    .our-Values h3 {
+        font-family: 'Figtree', sans-serif;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 32px;
+        line-height: 40px;
+    }   
+}

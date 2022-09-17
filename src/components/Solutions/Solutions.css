@@ -1,0 +1,108 @@
+.container-solutions {
+    padding: 100px 15%;
+}
+.container-solutions h2 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    margin-bottom: 62px;
+}
+.article-1 p {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 28px;
+    letter-spacing: 0.02em;
+    color: rgba(51, 51, 51, 0.7);
+}
+.article-2 p {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 28px;
+    letter-spacing: 0.02em;
+    color: rgba(51, 51, 51, 0.7);
+}
+.container-article {
+    gap: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+.article-1 {
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 48px 40px;
+    gap: 28px;
+    background: linear-gradient(180deg, #EAECF0 0%, rgba(234, 236, 240, 0) 100%);
+    border-radius: 30px;
+}
+.article-1 h4 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+    text-align: center;
+    letter-spacing: 0.0025em;
+}
+.article-2 {
+    padding: 48px 28px;
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 48px 28px;
+    gap: 28px;
+    background: linear-gradient(180deg, #EAECF0 0%, rgba(234, 236, 240, 0) 100%);
+    border-radius: 30px;
+}
+.article-2 button {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    display: flex;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 12px 84px;
+    gap: 10px;
+    background: #B48FF5;
+    border-radius: 30px;
+}
+@media only screen and (max-width: 1100px) {
+    .container-solutions {
+        padding: 100px 50px;
+    }
+    .container-article {
+        gap: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .article-1 {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 48px 40px;
+        gap: 28px;
+        background: linear-gradient(180deg, #EAECF0 0%, rgba(234, 236, 240, 0) 100%);
+        border-radius: 30px;
+    }
+    .article-2 {
+        padding: 48px 28px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 48px 28px;
+        gap: 28px;
+        background: linear-gradient(180deg, #EAECF0 0%, rgba(234, 236, 240, 0) 100%);
+        border-radius: 30px;
+    }
+}
