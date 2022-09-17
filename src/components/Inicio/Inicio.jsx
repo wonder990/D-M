@@ -9,7 +9,7 @@ const Inicio = () => {
     <main id="Inicio" className="presentation">
       <h2>Transformá la forma en la que tu equipo se relaciona</h2>
       <p>Trabajemos en el cambio que estás buscando.</p>
-      <button>Elevá tus resultados</button>
+      <a href="#solutions">Elevá tus resultados</a>
     </main>
   )
 }
