@@ -11,8 +11,8 @@ const Header = () => {
       <ul
         className={
           buttonActive
-            ? 'pr-0 duration-300 bg-[#FAFAFA] lg:bg-inherit w-full flex justify-center items-center flex-col absolute top-[80px] lg:relative lg:flex lg:justify-center lg:items-center lg:top-0 lg:flex-row lg:pr-[150px] lg:w-auto'
-            : 'pr-0 duration-300 -top-[500px] lg:bg-inherit absolute w-full flex justify-center items-center flex-col lg:relative lg:flex lg:justify-center lg:items-center lg:top-0 lg:flex-row lg:pr-[150px] lg:w-auto'
+            ? 'p-0 duration-300 bg-[#FAFAFA] lg:bg-inherit w-full flex justify-center items-center flex-col absolute top-[80px] lg:relative lg:flex lg:justify-center lg:items-center lg:top-0 lg:flex-row lg:pr-[150px] lg:w-auto'
+            : 'p-0 duration-300 -top-[500px] lg:bg-inherit absolute w-full flex justify-center items-center flex-col lg:relative lg:flex lg:justify-center lg:items-center lg:top-0 lg:flex-row lg:pr-[150px] lg:w-auto'
         }
       >
         <li>
