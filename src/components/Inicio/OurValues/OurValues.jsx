@@ -11,12 +11,11 @@ import {
 const OurValues = () => {
   const [swiper, setSwiper] = useState()
 
-  // useEffect(() => {
-  //   setInterval(() => {
-  //     swiper?.slideNext()
-  //   }, 20000)
-  // }, [swiper])
-  console.log(swiper)
+  useEffect(() => {
+    setInterval(() => {
+      swiper?.slideNext()
+    }, 5000)
+  }, [swiper])
 
   return (
     <div className="our-Values">

@@ -40,7 +40,7 @@ html {
     display: flex;
     font-family: 'Figtree', sans-serif;
     flex-direction: row;
-    align-items: flex-start;
+    text-align: center;
     padding: 12px 84px;
     gap: 10px;
     width: 366px;
@@ -82,7 +82,7 @@ html {
         .presentation button {
             margin: 40px auto;
             font-family: 'Figtree', sans-serif;
-            width: 80%;
+            max-width: 300px;
             height: 48px;
             background: #B48FF5;
             border-radius: 30px;
