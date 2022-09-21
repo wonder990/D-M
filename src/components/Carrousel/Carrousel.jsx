@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React, { useEffect, useState } from 'react'
 import { Swiper, SwiperSlide } from 'swiper/react'
 import { Pagination } from 'swiper'
 import 'swiper/css'
@@ -8,16 +8,18 @@ import './Carrousel.css'
 const Carrousel = () => {
   const [swiper, setSwiper] = useState(0)
 
-  // useEffect(() => {
-  //   setInterval(() => {
-  //     swiper?.slideNext()
-  //   }, 20000)
-  // }, [swiper])
-  console.log(swiper)
+  useEffect(() => {
+    setInterval(() => {
+      swiper?.slideNext()
+    }, 4000)
+  }, [swiper])
+
   return (
     <div className="container-questions">
       <div className="my-[70px] flex justify-between">
         <Swiper
+          onSwiper={(swiper) => setSwiper(swiper)}
+          loop
           spaceBetween={30}
           pagination={{
             clickable: true,

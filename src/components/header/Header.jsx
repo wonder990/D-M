@@ -71,7 +71,7 @@ const Header = () => {
         </li>
       </ul>
       <button
-        className="z-30 lg:hidden"
+        className="absolute right-[20px] top-[40px] z-30 lg:hidden"
         onClick={() => {
           setbuttonActive(!buttonActive)
         }}

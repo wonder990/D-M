@@ -46,7 +46,6 @@ const OurValues = () => {
           loop
           spaceBetween={80}
           slidesPerView="auto"
-          onSlideChange={(e) => console.log(e)}
           onSwiper={(swiper) => setSwiper(swiper)}
         >
           <SwiperSlide className="w-[90%] sm:!w-[450px]">

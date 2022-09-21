@@ -40,9 +40,7 @@ const Solutions = () => {
             src="./images/cuate.png"
             alt=""
           />
-          <button>
-            <a href="#Form">Contacto</a>
-          </button>
+          <a href="#Form">Contacto</a>
         </article>
       </div>
     </section>

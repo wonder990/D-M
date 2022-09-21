@@ -22,7 +22,7 @@ const Form = () => {
               <a
                 target="_blanck"
                 href="https://www.instagram.com/dyn.consulting/"
-                className="flex links items-center py-[10px]"
+                className="w-full flex links items-center py-[10px]"
               >
                 <img
                   className="px-[20px]"

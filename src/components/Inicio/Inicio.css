@@ -35,8 +35,8 @@ html {
     line-height: 32px;
     letter-spacing: 0.15em;
 }
-.presentation button {
-    margin: 40px 0;
+    .presentation a {
+        margin: 40px 0;
     display: flex;
     font-family: 'Figtree', sans-serif;
     flex-direction: row;
@@ -44,7 +44,7 @@ html {
     padding: 12px 84px;
     gap: 10px;
     width: 366px;
-    height: 48px;
+    min-height: 48px;
     background: #B48FF5;
     border-radius: 30px;
     font-style: normal;
@@ -68,7 +68,7 @@ html {
         }
         .presentation {
             width: 90%;
-            padding: 0 0 100px 10%;
+            padding: 50px 30px 50px 30px;
         }
         .presentation h2 {
             font-family: 'Figtree', sans-serif;
@@ -79,11 +79,11 @@ html {
             letter-spacing: -0.015em;
             padding-top: 60px;
         }
-        .presentation button {
+        .presentation a {
             margin: 40px auto;
             font-family: 'Figtree', sans-serif;
             max-width: 300px;
-            height: 48px;
+            min-height: 48px;
             background: #B48FF5;
             border-radius: 30px;
             font-style: normal;
